@@ -1,0 +1,259 @@
+@media screen and (min-width: 1028px){
+
+    .container {
+        height: fit-content;
+        width: 100vw;
+        background: #EBFFDB;
+        font-family: "Kodchasan", sans-serif;
+    }
+
+    .navBar {
+        width: 80%;
+        height: fit-content;
+        border-style: solid;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: rgb(224, 224, 224);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: auto;
+    }
+
+    .sousNavBar {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        width: 500px;
+        justify-content: space-around;
+    }
+    
+    .links {
+        list-style-type: none;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .lin {
+        text-decoration: none;
+        font-size: 1.25rem/* 20px */;
+        line-height: 1.75rem/* 28px */;
+        font-weight: 900;
+    }
+    
+    .lin:hover {
+        border-style: solid;
+        border-width: 3px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: rgb(15, 172, 15);
+        transition: all;
+        transition-duration: 100ms;
+        
+    }
+    
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        margin-right: 450px;
+    }
+    
+    .logo img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    #apprendre{
+        text-align: center;
+        color: #4AE287;
+        font-size: 2.25rem/* 36px */;
+        line-height: 2.5rem/* 40px */;
+        font-weight: 700;
+    }
+    
+    #enfants{
+        text-align: center;
+    }
+    
+    #sante, #sanino{
+        color: darkorange;
+    }
+    
+    .indexPara{
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .logo2{
+        width: 100%;
+        height: 180px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .logo2 img{
+        width: 140px;
+        height: 100%;
+    }
+
+    .instH1{
+        text-align: center;
+        color: #3DB86E;
+        font-size: 3rem/* 48px */;
+        line-height: 1;
+        font-weight: 700;
+    }
+
+    .instH2{
+        text-align: center;
+        color: #3DB86E;
+        font-size: 1.5rem/* 24px */;
+        line-height: 2rem/* 32px */;
+        font-weight: 700;
+    }
+
+    .instPara{
+        text-align: center;
+        margin-right: 205px;
+        margin-left: 205px;
+        font-weight: 700;
+    }
+
+    .instUL{
+        text-align: center;
+        margin-right: 205px;
+        margin-left: 205px;
+        font-weight: 700;
+    }
+
+    .instImgContainer{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .instImg{
+        height: 200px;
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 1028px){
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background: #EBFFDB;
+        font-family: "Kodchasan", sans-serif;
+    }
+    
+    .navBar {
+        width: 80%;
+        height: fit-content;
+        border-style: solid;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: rgb(224, 224, 224);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: auto;
+    }
+    
+    .sousNavBar {
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        justify-content: space-around;
+    }
+    
+    .links {
+        list-style-type: none;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .lin {
+        text-decoration: none;
+        font-size: 0.875rem/* 14px */;
+        line-height: 1.25rem/* 20px */;
+        font-weight: 900;
+    }
+    
+    .lin:hover {
+        border-style: solid;
+        border-width: 3px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: rgb(15, 172, 15);
+        transition: all;
+        transition-duration: 100ms;
+        
+    }
+    
+    .logo{
+        width: 90px;
+        height: 80px;
+        margin-top: 10px;
+        margin-right: 40px;
+    }
+    
+    .logo img{
+        height: 100%;
+        width: 100%;
+    }
+    
+     #apprendre{
+        text-align: center;
+        color: #4AE287;
+        font-size: 1.125rem/* 18px */;
+        line-height: 1.75rem/* 28px */;
+        font-weight: 700;
+    }
+    
+    #enfants{
+        text-align: center;
+        font-size: 1rem/* 16px */;
+        line-height: 1.5rem/* 24px */;
+    }
+    
+    #sante, #sanino{
+        color: darkorange;
+    }
+    
+    .indexPara{
+        text-align: center;
+        font-size: 10px;
+        line-height: 14px;
+        font-weight: 600;
+    }
+    
+    .logo2{
+        width: 100%;
+        height: 130px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .logo2 img{
+        width: 110px;
+        height: 100%;
+    }
+    
+}
+
+
+
